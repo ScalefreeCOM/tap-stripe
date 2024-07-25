@@ -151,7 +151,35 @@
       "type": [
         "null",
         "object"
-      ]
+      ],
+      "properties": {
+        "credited_items": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "invoice": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "invoice_line_items": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          }
+        }
+      }
     },
     "period": {
       "type": [
@@ -487,7 +515,9 @@
         "string"
       ]
     },
-    "plan": {"$ref": "shared/plan.json#/"},
+    "plan": {
+      "$ref": "shared/plan.json#/"
+    },
     "invoice_item": {
       "type": [
         "null",
