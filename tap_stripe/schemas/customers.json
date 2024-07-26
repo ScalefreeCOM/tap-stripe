@@ -9,7 +9,21 @@
         "null",
         "object"
       ],
-      "properties": {}
+      "additionalProperties": true,
+      "properties": {
+        "ExternalId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
     },
     "updated_by_event_type": {
       "type": [
