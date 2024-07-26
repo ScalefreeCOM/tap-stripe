@@ -477,7 +477,6 @@
         }
       }
     },
-    
     "customer_phone": {
       "type": [
         "null",
@@ -724,16 +723,14 @@
     "lines": {
       "type": [
         "null",
-        "array",
-        "object"
+        "array"
       ],
       "items": {
         "type": [
           "null",
           "string"
         ]
-      },
-      "properties": {}
+      }
     },
     "forgiven": {
       "type": [
@@ -910,7 +907,7 @@
             "type": [
               "null",
               "string"
-            ] 
+            ]
           },
           "value": {
             "type": [
