@@ -242,17 +242,29 @@
       ],
       "properties": {
         "custom_fields": {
-          "name": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
             "type": [
               "null",
-              "array"
-            ]
-          },
-          "value": {
-            "type": [
-              "null",
-              "string"
-            ]
+              "object"
+            ],
+            "properties": {
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "value": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
           }
         },
         "default_payment_method": {
