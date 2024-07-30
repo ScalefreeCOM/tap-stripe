@@ -242,10 +242,12 @@
       ],
       "properties": {
         "custom_fields": {
-          "name": [
-            "null",
-            "array"
-          ],
+          "name": {
+            "type": [
+              "null",
+              "array"
+            ]
+          },
           "value": {
             "type": [
               "null",
