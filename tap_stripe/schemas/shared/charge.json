@@ -311,7 +311,35 @@
         "null",
         "object"
       ],
-      "properties": {}
+      "properties": {
+        "address": {
+          "$ref": "shared/address.json#/"
+        },
+        "carrier": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "phone": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "tracking_number": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
     },
     "calculated_statement_descriptor": {
       "type": [
@@ -1893,4 +1921,3 @@
     }
   }
 }
-
