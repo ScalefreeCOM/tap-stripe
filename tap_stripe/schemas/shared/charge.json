@@ -5,11 +5,7 @@
   ],
   "properties": {
     "metadata": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {}
+      "$ref": "shared/metadata.json#/"
     },
     "fraud_details": {
       "type": [
@@ -462,11 +458,7 @@
             ]
           },
           "metadata": {
-            "type": [
-              "null",
-              "object"
-            ],
-            "properties": {}
+            "$ref": "shared/metadata.json#/"
           },
           "next_action": {
             "type": [
@@ -570,11 +562,7 @@
       ],
       "properties": {
         "metadata": {
-          "type": [
-            "null",
-            "object"
-          ],
-          "properties": {}
+          "$ref": "shared/metadata.json#/"
         },
         "exp_month": {
           "type": [
@@ -1764,11 +1752,7 @@
               "properties": {}
             },
             "metadata": {
-              "type": [
-                "null",
-                "object"
-              ],
-              "properties": {}
+              "$ref": "shared/metadata.json#/"
             },
             "address_state": {
               "type": [
