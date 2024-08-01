@@ -1,11 +1,7 @@
 {
   "properties": {
     "metadata": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {}
+      "$ref": "shared/metadata.json#/"
     },
     "failure_code": {
       "type": [
@@ -77,11 +73,7 @@
     "bank_account": {
       "properties": {
         "metadata": {
-          "type": [
-            "null",
-            "object"
-          ],
-          "properties": {}
+          "$ref": "shared/metadata.json#/"
         },
         "routing_number": {
           "type": [

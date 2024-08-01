@@ -5,11 +5,7 @@
   ],
   "properties": {
     "metadata": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {}
+      "$ref": "shared/metadata.json#/"
     },
     "type": {
       "type": [

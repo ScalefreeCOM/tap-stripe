@@ -17,11 +17,7 @@
       ]
     },
     "metadata": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {}
+      "$ref": "shared/metadata.json#/"
     },
     "plan": {
       "$ref": "shared/plan.json#/"

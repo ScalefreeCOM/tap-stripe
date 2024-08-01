@@ -93,11 +93,7 @@
       ]
     },
     "metadata": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {}
+      "$ref": "shared/metadata.json#/"
     },
     "description": {
       "type": [
@@ -295,11 +291,7 @@
             ]
           },
           "metadata": {
-            "type": [
-              "null",
-              "object"
-            ],
-            "properties": {}
+            "$ref": "shared/metadata.json#/"
           }
         }
       }
@@ -501,11 +493,7 @@
           ]
         },
         "metadata": {
-          "type": [
-            "null",
-            "object"
-          ],
-          "properties": {}
+          "$ref": "shared/metadata.json#/"
         }
       }
     },

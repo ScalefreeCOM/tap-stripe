@@ -290,10 +290,7 @@
             ]
           },
           "metadata": {
-            "type": [
-              "null",
-              "object"
-            ]
+            "$ref": "shared/metadata.json#/"
           },
           "percentage": {
             "type": [
@@ -492,11 +489,7 @@
       ]
     },
     "metadata": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {}
+      "$ref": "shared/metadata.json#/"
     },
     "charge": {
       "type": [
@@ -746,10 +739,7 @@
       ],
       "properties": {
         "metadata": {
-          "type": [
-            "null",
-            "string"
-          ]
+          "$ref": "shared/metadata.json#/"
         }
       }
     },
