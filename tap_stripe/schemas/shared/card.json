@@ -156,7 +156,12 @@
             "null",
             "object"
           ],
-          "properties": {}
+          "properties": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
         },
         "dynamic_last4": {
           "type": [
@@ -178,48 +183,7 @@
           ],
           "properties": {
             "billing_address": {
-              "type": [
-                "null",
-                "object"
-              ],
-              "properties": {
-                "city": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "country": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "line1": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "line2": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "postal_code": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "state": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                }
-              }
+              "$ref": "shared/address.json#/"
             },
             "email": {
               "type": [
@@ -234,48 +198,7 @@
               ]
             },
             "shipping_address": {
-              "type": [
-                "null",
-                "object"
-              ],
-              "properties": {
-                "city": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "country": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "line1": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "line2": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "postal_code": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "state": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                }
-              }
+              "$ref": "shared/address.json#/"
             }
           }
         },
@@ -299,48 +222,7 @@
           ],
           "properties": {
             "billing_address": {
-              "type": [
-                "null",
-                "object"
-              ],
-              "properties": {
-                "city": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "country": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "line1": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "line2": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "postal_code": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "state": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                }
-              }
+              "$ref": "shared/address.json#/"
             },
             "email": {
               "type": [
@@ -355,48 +237,7 @@
               ]
             },
             "shipping_address": {
-              "type": [
-                "null",
-                "object"
-              ],
-              "properties": {
-                "city": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "country": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "line1": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "line2": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "postal_code": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "state": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                }
-              }
+              "$ref": "shared/address.json#/"
             }
           }
         }
