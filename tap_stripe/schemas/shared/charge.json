@@ -561,6 +561,9 @@
         "object"
       ],
       "properties": {
+        "card": {
+          "$ref": "shared/card.json#/"
+        },
         "card_present": {
           "type": [
             "null",
@@ -638,9 +641,6 @@
                 "null",
                 "string"
               ]
-            },
-            "card": {
-              "$ref": "shared/card.json#/"
             },
             "overcapture_supported": {
               "type": [
