@@ -157,10 +157,12 @@
             "object"
           ],
           "properties": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
           }
         },
         "dynamic_last4": {
